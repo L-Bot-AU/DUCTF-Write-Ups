@@ -25,3 +25,6 @@ Realise we can "dislodge" the key partially with our payload so that only part o
 While bruteforcing for each possible value of `check_char`, once the third and fourth blocks in the encrypted ciphertext are the same, we know `check_char` will be the same as the first byte of the key. We can repeat this for the second byte with 14's, the first byte of the key, `check_char` and then 14 more 0's:
 `[16 bytes of flag][16 bytes of flag][[14 0's] + [first byte of key] + [check_char]][[14 0's] + first byte of key + second byte of key][rest of key + padding]`
 and so on until we figure out all characters in the key: **!\_SECRETSOURCE\_!**. Finally, we can decrypt our original output after entering nothing (which would be the encryption of `flag + key`) with the known `key` through AES-ECB and retrieve the flag: **DUCTF{ECB_M0DE_K3YP4D_D474_L34k}**
+
+# Note
+There was a problem with using the socket module in that requests seemed to be unexpectedly stitched together or mixed up, so we had to alternate between appending the current value and previous value of `chec_char`, and we also had to progressively modify our code with the part of the key that we knew was correct.
