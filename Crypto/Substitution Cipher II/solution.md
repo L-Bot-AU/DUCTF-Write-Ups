@@ -26,7 +26,7 @@ One method of solving these equations would be to create a matrix of coefficient
   <li> All assignment operations must first have modulus 47 applied to them </li>
   <li> Division must be performed by taking the multiplicative inverse of the divisor in mod 47 and performing multiplicating by that number instead </li>
 </ul>
-Finally, with the full polynomial, we can bruteforce through each of the possible 47 characters until the solution to one of them matches each character of the output file, and then append it to a flag string. The solution code can be found [here](solve.py). Flag: `DUCTF{go0d_0l'_l4gr4ng3}`.
+Finally, with the full polynomial, we can bruteforce through each of the possible 47 characters until the solution to one of them matches each character of the output file, and then append it to a flag string. The solution code can be found [here](solve.py).
 
 # Note
 For whatever reason, it appears that the output flag instead generated was `DUCTF{go0d_0l'_l4gr4fg3}`. We can intuitively figure out that the leetspeak is referring to the mathematician Joseph-Louis Lagrange and replace the "f" with an "n".
