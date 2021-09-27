@@ -8,13 +8,13 @@ Please tell us the name of the station, with any spaces replaced by underscores.
 
 Flag format: `DUCTF{station_name}`
 
-File: (image.png)[https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/blob/master/OSINT/(back)%20On%20the%20rails/image.png]
+File: [image.png](https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/blob/master/OSINT/(back)%20On%20the%20rails/image.png)
 
 # Solution
 
 This problem was fairly straightforward, given the context of the other OSINT problems. With the prompts of a) recalling that a team member had mentioned a plane
-touching down in Melbourne during a rant about the problem (eyespy)[https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/tree/master/OSINT/eyespye], and b) another team
-member's comment that the station looked "abandoned", a quick search of "abandoned train stations melbourne" on google images led to (this)[https://www.google.com/search?q=abandoned+train+stations+melbourne&sxsrf=AOaemvI6fnLZ9nkK03qY_mbrxWDQKAXR-Q:1632617322883&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5kda8tZvzAhVpwjgGHb7mDuoQ_AUoAnoECAEQBA&biw=1440&bih=706&dpr=1#imgrc=DyhapvndtFAZAM]
+touching down in Melbourne during a rant about the problem [eyespy](https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/tree/master/OSINT/eyespye), and b) another team
+member's comment that the station looked "abandoned", a quick search of "abandoned train stations melbourne" on google images led to [this](https://www.google.com/search?q=abandoned+train+stations+melbourne&sxsrf=AOaemvI6fnLZ9nkK03qY_mbrxWDQKAXR-Q:1632617322883&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj5kda8tZvzAhVpwjgGHb7mDuoQ_AUoAnoECAEQBA&biw=1440&bih=706&dpr=1#imgrc=DyhapvndtFAZAM)
 image, which is strikingly similar due to the graffiti on the left side of the image along with other giveaways. Thus, we get the flag:
 
 DUCTF{general_motors_station}
