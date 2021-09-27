@@ -11,7 +11,7 @@ Bad Bucket | Not linked/Not Done
 ### Crypto
 Challenge Done | Write Up Link
 --- | ---
-Substitution Cipher I | Not linked/Not Done
+Substitution Cipher I | [Link](https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/blob/master/Crypto/Substitution%20Cipher%20I/solution.md)
 Break Me! | Not linked/Not Done
 Substitution Cipher II | Not linked/Not Done
 treasure | Not linked/Not Done
@@ -26,7 +26,7 @@ Do the loop! | Not linked/Not Done
 ### Misc
 Challenge Done | Write Up Link
 --- | ---
-The Introduction | Not linked/Not Done
+The Introduction | [Link](https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/blob/master/Misc/The%20Introduction/solution.md)
 Discord | [link](Misc/Discord/solution.md)
 General Skills Quiz | Not linked/Not Done
 rabbit | Not linked/Not Done
@@ -40,7 +40,7 @@ Who goes there? | Not linked/Not Done
 Get over it! | Not linked/Not Done
 Apartment Views | Not linked/Not Done
 The Internet is Written in Ink| [link](OSINT/The%20Internet%20is%20Written%20in%20Ink/solution.md)
-(back) On the Rails | Not linked/Not Done
+(back) On the Rails | [Link](https://github.com/L-Bot-SBHS/DUCTF-Write-Ups/blob/master/OSINT/(back)%20On%20the%20rails/solution.md)
 Heart of the Nation | [link](OSINT/Heart%20of%20the%20Nation/solution.md)
 eyespye | [link](OSINT/eyespye/solution.md)
 
