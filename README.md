@@ -42,7 +42,7 @@ Apartment Views | Not linked/Not Done
 The Internet is Written in Ink| [link](OSINT/The%20Internet%20is%20Written%20in%20Ink/solution.md)
 (back) On the Rails | Not linked/Not Done
 Heart of the Nation | [link](OSINT/Heart%20of%20the%20Nation/solution.md)
-eyespye | [link](OSINT/eyespyre/solution.md)
+eyespye | [link](OSINT/eyespye/solution.md)
 
 ### Pwn
 Challenge Done | Write Up Link
