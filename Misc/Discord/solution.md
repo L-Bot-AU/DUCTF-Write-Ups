@@ -2,6 +2,7 @@
 
 ## Steps
 Goto  #request-support
+
 Get the flag from the channel description
 
 ## Flag
