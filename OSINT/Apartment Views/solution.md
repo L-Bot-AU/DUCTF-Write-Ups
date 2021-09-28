@@ -24,4 +24,4 @@ The required street was not the one directly below the apartment, nor was it one
 Turns out it was the street behind the apartment -_-
 
 # Solution
-FLAG: `DUCTF{mclean alley}`
+FLAG: `DUCTF{mclean_alley}`
