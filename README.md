@@ -36,7 +36,7 @@ Floormat | Not linked/Not Done
 ### OSINT
 Challenge Done | Write Up Link
 --- | ---
-Who goes there? | [link](OSINT/Who%20goes%20there%3F/solution.md)
+Who goes there? | [link](OSINT/Who%20goes%20there/solution.md)
 Apartment Views | [link](OSINT/Apartment%20Views/solution.md)
 The Internet is Written in Ink| [link](OSINT/The%20Internet%20is%20Written%20in%20Ink/solution.md)
 (back) On the Rails | [Link](OSINT/(back)%20On%20the%20rails/solution.md)
