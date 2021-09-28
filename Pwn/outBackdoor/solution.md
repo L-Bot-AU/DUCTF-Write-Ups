@@ -12,5 +12,8 @@ After decompiling the executable with Ghidra, we see that input is retrieved thr
 Our exploit will work by performing overflowing the buffer and overwriting the return pointer stored on the stack with a new one. We can retrieve the address of the `outBackdoor` function by loading the program in gdb and running `info functions` (we can also see from the `checksec` command that PIE is disabled, so all addresses are fixed):  
 ![GDB output](gdbout.png)  
 We run into an issue however: for some reason, our payload seems to work locally, however the server seems to inexplicably close after we run the `outBackdoor` function. This is because the `movaps` command requires the stack to be aligned in 8 bytes, so we can add an address before the `outBackdoor` address which jumps to a `ret` instruction and aligns the stack.  
-Final payload: `(python -c "print 'AAAABBBBCCCCDDDD\x00\x12\x40\x00\x00\x00\x00\x00\xfa\x11\x40\x00\x00\x00\x00\x00\xd7\x11\x40\x00\x00\x00\x00\x00'"; cat -) | nc pwn-2021.duc.tf 31921`  
+Final payload:
+```
+(python -c "print 'AAAABBBBCCCCDDDD\x00\x12\x40\x00\x00\x00\x00\x00\xfa\x11\x40\x00\x00\x00\x00\x00\xd7\x11\x40\x00\x00\x00\x00\x00'"; cat -) | nc pwn-2021.duc.tf 31921
+```
 Flag: DUCTF{https://www.youtube.com/watch?v=XfR9iY5y94s}
