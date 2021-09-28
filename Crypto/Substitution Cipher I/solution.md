@@ -33,3 +33,28 @@ of the quadratic formula 13x^2 + 3x + 7 = a through the positive branch of the q
 value which represents each solution gives us the flag:
 
 DUCTF{sh0uld'v3_us3d_r0t_13}
+
+# Ryan's Solution
+```sage
+def encrypt(msg, f):
+    return ''.join(chr(f.substitute(c)) for c in msg)
+
+def encrypt(msg, f):
+    return "".join(chr(f.substitute(c)) for c in msg)
+
+P.<x> = PolynomialRing(ZZ)
+f = 13*x^2 + 3*x + 7
+
+#FLAG = b"DUCTF{"
+FLAG = ""
+for _ in range(100):
+    for c in "QWERTYUIOPASDFGHJKLZXCVBNM1234567890_":
+        enc = encrypt((FLAG + c).encode(), f)
+        if bytes("î®£ð–¿«î“…ð–“ï¦­ð°†½ðªƒµð¢™¿ç–—ð«¢‹ð¥†›ðŸ´ƒä¶¹ð¬‘½è’µðœ­±ð«¢‹ðªƒµè’µðŸ´ƒðœ­±ð©•‘ç–—ðª²³ðœ­±çª‡è’µð±«³", encoding="utf8").startswith(bytes(enc, encoding="utf8")):
+            FLAG = FLAG + c
+            break
+
+print(FLAG)
+
+
+```
