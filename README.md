@@ -20,7 +20,7 @@ treasure | [Link](Crypto/treasure/solution.md)
 Challenge Done | Write Up Link
 --- | ---
 Retro! | [link](Forensics/Retro/solution.md)
-How to pronounce GIF | Not linked/Not Done
+How to pronounce GIF | [link](Forensics/How%20to%20pronounce%20GIF/solution.md)
 Do the loop! | [link](Forensics/Do%20the%20loop!/solution.md)
 
 ### Misc
