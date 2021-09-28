@@ -11,4 +11,4 @@ Flag format is DUCTF{+61<number>}
 Domain: 646f776e756e646572.xyz  
   
 # Solution
-After visiting the domain, in the top right, we see that it was registered with namecheap. If we look up "namecheap whois search" in order to find details about the registrant of the domain, we come up with [this website](https://www.namecheap.com/domains/whois/). After entering "646f776e756e646572.xyz" into the search bar, under "Registrant Phone", we find the phone number to be **Registrant Phone**
+After visiting the domain, on the top right of the website, we see that it was registered with namecheap. If we look up "namecheap whois search" in order to find details about the registrant of the domain, we come up with [this website](https://www.namecheap.com/domains/whois/). After entering "646f776e756e646572.xyz" into the search bar, under "Registrant Phone", we find the phone number to be **Registrant Phone**
