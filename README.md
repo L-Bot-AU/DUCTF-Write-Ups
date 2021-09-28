@@ -6,7 +6,7 @@ Write ups for the L-Bot team on the Down Under CTF
 ### Cloud
 Challenge Done | Write Up Link
 --- | ---
-Bad Bucket | Not linked/Not Done
+Bad Bucket | [Link](Cloud/Bad%20Bucket/solution.md)
 
 ### Crypto
 Challenge Done | Write Up Link
