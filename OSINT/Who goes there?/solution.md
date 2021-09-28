@@ -5,7 +5,7 @@ Welcome to the team, glad you chose to join us - hopefully you’ll like it here
   
 We’ve observed an underground criminal RaaS operation calling back to this domain, can you find the number of the individual who registered the domain?  
   
-DUCTF{+61<number>}  
+Flag format is DUCTF{+61<number>}  
   
 # Setup
 Domain: 646f776e756e646572.xyz  
