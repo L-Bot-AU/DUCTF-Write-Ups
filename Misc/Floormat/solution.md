@@ -1,11 +1,11 @@
 # Challenge
-I've opened a new store that provides free furnishings and floormats. If you know the secret format we might also be able to give you flags...
-
+I've opened a new store that provides free furnishings and floormats. If you know the secret format we might also be able to give you flags...  
+  
 # Setup
-Host: pwn-2021.duc.tf
-Port: 31903
-Source code: [floormat.py](floormat.py)
-
+Host: pwn-2021.duc.tf  
+Port: 31903  
+Source code: [floormat.py](floormat.py)  
+  
 # Solution
 The code creates a floormat by asking us for a template type and a pattern to use. The template type can either be "Fundamental", "Flabbergasting" or our own custom template, and the pattern is some class which is passed into the template.  
   
