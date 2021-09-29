@@ -31,7 +31,7 @@ Discord | [link](Misc/Discord/solution.md)
 General Skills Quiz | [link](Misc/General%20Skills%20Quiz/solution.md)
 rabbit | Not linked/Not Done
 Twitter | Not linked/Not Done
-Floormat | Not linked/Not Done
+Floormat | [link](Misc/Floormat/solution.md)
 
 ### OSINT
 Challenge Done | Write Up Link
