@@ -29,8 +29,8 @@ Challenge Done | Write Up Link
 The Introduction | [Link](Misc/The%20Introduction/solution.md)
 Discord | [link](Misc/Discord/solution.md)
 General Skills Quiz | [link](Misc/General%20Skills%20Quiz/solution.md)
-rabbit | Not linked/Not Done
-Twitter | Not linked/Not Done
+rabbit | [link](Misc/Rabbit/solution.md)
+Twitter | [link](Misc/Twitter/solution.md)
 Floormat | [link](Misc/Floormat/solution.md)
 
 ### OSINT
