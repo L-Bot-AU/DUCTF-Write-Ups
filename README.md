@@ -61,4 +61,4 @@ Challenge Done | Write Up Link
 --- | ---
 Cowboy World | [link](Web/Cowboy%20World/solution.md)
 Chainreaction | [link](Web/Chainreaction/solution.md)
-Secret Bin | Not linked/Not Done
+Secret Bin | [link](Web/Secret%20Bin/solution.md)
