@@ -14,6 +14,7 @@ Visiting `/devchat` instead shows us messages between developers, which give us 
   <li> "Only used it once for a uni project this semester, NFKD I think it was" -> NKFD is a Unicode normalisation scheme, so this solidifies the idea of a normalising user inputted characters. The fact that the developer is normalising after checking for some "bad" payload indicates that to exploit this website, we should "smuggle" these bad strings through Unicode characters which are only unpackaged after input validation, like a Trojan horse. </li>
   <li> "Also the about me section was all html escaped making it look ugly, need to try and find a fix for that as well. It looks very ugly." -> this was sent after a developer said the page was autoescaped because values were inputted raw (which would introduce an XSS vulnerability), however now that that feature seems to be raw. This indicates we need to construct an XSS attack which sends a user's cookie to some proxy, report the error to the admins, check the proxy and retrieve their cookie </li>
 </ol>
+
 To test our idea of the XSS, we can register an account, log into it and view our profile page. After entering `" hidden value="` into the "About me" field and updating our information, we see that the field disappears:
 [!About me field is gone](disap.png)
 However, if we try to enter `<script>`, we see that the website detects a "hacking attempt":
