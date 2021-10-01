@@ -59,6 +59,6 @@ flag loader | [link](Reversing/flag%20loader/solution.md)
 ### Web
 Challenge Done | Write Up Link
 --- | ---
-Cowboy World | Not linked/Not Done
+Cowboy World | [link](Web/Cowboy%20World/solution.md)
 Chainreaction | Not linked/Not Done
 Secret Bin | Not linked/Not Done
