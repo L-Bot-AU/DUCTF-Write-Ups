@@ -17,9 +17,9 @@ def check3(n):
 	k = n - 642
 	a = k % 4
 	b = (k - a) // 4
-  c = b + 0x80
-  d = c + 1
-  e = d + 0x100
+  	c = b + 0x80
+ 	d = c + 1
+ 	e = d + 0x100
 	return a, b, c, d, e
  ```
 In total, we have 4 + 15 + 15 = 34 zeroes when each of the returned values are multiplied, resulting in an overflow that outputs 0. Sleep should now call with 0 as its parameter, and the flag should be immediately printed.  
